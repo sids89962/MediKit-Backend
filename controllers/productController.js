@@ -1,37 +1,17 @@
 const Product = require('../models/productModel')
 
-//Filter, sorting and paginating
-
-
-
-
 const productController = {
     getProducts: async (req,res) => {
         try{    
             let products;
-            const {category, sort} = req.query
+            const {category} = req.query
 
-           if(!category && !sort)
+           if(!category)
             {
                 products = await Product.find()
                  res.json(products)
-            }else {
-                const query = {}
-                let priceSort = "-_id" ;
-                if(sort){
-                    if(sort === "lowest"){
-                        priceSort = "price";
-                    }
-                    if(sort === "highest"){
-                        priceSort = "-price"
-                    }
-                }
-                if(category){
-                    query["category"] = category;
-                }
-                products = await Product.find(query)
-                .sort(priceSort)
-
+            }else {                
+                products = await Product.find({category:category})               
                 res.json(products)
             }
           
