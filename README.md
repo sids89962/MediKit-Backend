@@ -1,4 +1,4 @@
-<h2>MediKit-Frontend</h2>
+<h2>MediKit-Backend</h2>
 <p> MediKit is a Full Stack (MERN) website with features to sort on basis of price and category. It also provides a admin for creating a product, deleting, editing and approving the requests. The website isn't made responsive because of major focus on MERN stack. </p>
 <hr>
 
