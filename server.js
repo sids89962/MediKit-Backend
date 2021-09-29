@@ -28,10 +28,7 @@ app.use('/api', require('./routes/upload'))
 app.use('/api', require('./routes/productRouter'))
 app.use('/api', require('./routes/paymentRoutes'))
 
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static("client/build"))
 
-}
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
