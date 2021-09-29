@@ -3,7 +3,7 @@
 <hr>
 <h3>Link</h3>
 <h4>FrontEnd-Repo: <a href="https://github.com/sids89962/Medikit">MediKit-FrontEnd</a> </h4>
-<h4>Website: <a href="https://jan-aushidi-yogna.herokuapp.com/">landBNB</a> </h4>
+<h4>Website: <a href="https://jan-aushidi-yogna.herokuapp.com/">Jan-Aushidhi-Yojna</a> </h4>
 <h4>Linkedin: <a href="https://www.linkedin.com/in/satyamsharma1997/">Satyam Sharma</a> </h4>
 <h4>Twitter: <a href="https://twitter.com/__sharmajii">Satyam Sharma</a> </h4>
 <hr>
